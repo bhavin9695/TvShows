@@ -1,0 +1,15 @@
+<section *ngIf="!showDetailObj" >
+  <p id="click-on-show-text">Click on show to see detail</p>
+</section>
+
+<section class="container" *ngIf="showDetailObj">
+  <div id="show-image-div">
+    <img class="show-image" [src]="showDetailObj?.show.image.medium">
+  </div>
+  <div id="show-info-div">
+      <h3>{{showDetailObj?.name}}</h3>
+      <h4>Episode : {{showDetailObj?.season}} - {{showDetailObj?.number}}</h4>
+      <h4>Show Link : {{showDetailObj?.show.url}}</h4>
+      <p [innerHTML]="showDetailObj?.show.summary"></p>
+  </div>
+</section>

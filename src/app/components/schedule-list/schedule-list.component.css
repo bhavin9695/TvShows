@@ -1,0 +1,27 @@
+#schedule-list{
+  overflow: auto;
+  max-height: 85vh;
+  background-color: #ece8e8;
+}
+
+.schedule-item{
+  background-color: #ece8e8;
+  border-bottom: 1px solid darkred;
+}
+
+#country-select-outer-div{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+#country-select-inner-div{
+  float: right;
+
+}
+
+.schedule-item p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}

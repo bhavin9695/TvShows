@@ -1,0 +1,12 @@
+.container {
+  width: 99%;
+}
+
+#scheduleListDivId {
+  width: 20%;
+  float: left;
+}
+
+#showDetailDivId {
+  margin-left: 22%;
+}
