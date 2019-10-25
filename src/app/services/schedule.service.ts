@@ -17,7 +17,7 @@ export class ScheduleService {
   getScheduleList(): Observable<ShowDetailModal[]> {
     const currentDate = new Date();
     const currentDateString = this.datePipe.transform(currentDate, 'yyyy-MM-dd');
-    return this.apiService.get(`http://api.tvmaze.com/schedule?country=US&date=${currentDateString}`).pipe(
+    return this.apiService.get(`https://api.tvmaze.com/schedule?country=US&date=${currentDateString}`).pipe(
       map((response: ShowDetailModal[]) => {
         return response;
       })
