@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Description 
 
-This project is showing current airing tv shows in US using angular and typescript.
-it using rest api from http://www.tvmaze.com/api to fetch data.
+This project is showing currently airing tv shows in US using angular and typescript.
+it is using rest api from http://www.tvmaze.com/api to fetch data.
 
 
 ## Development server
