@@ -7,6 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project is showing currently airing tv shows in US using angular and typescript.
 it is using rest api from http://www.tvmaze.com/api to fetch data.
 
+## Demo Url 
+  https://procreatortvshows.firebaseapp.com/
 
 ## Development server
 
